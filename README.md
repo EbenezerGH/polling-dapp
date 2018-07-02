@@ -38,7 +38,7 @@ truffle console
 truffle(development)> web3.personal.newAccount('###########')
 '0x6c5aaaf1f7a5344a9f09d42e34d0a3560be51a06'
 
-truffle(development)> web3.eth.getBalance(0x6c5aaaf1f7a5344a9f09d42e34d0a3560be51a06').toString()
+truffle(development)> web3.eth.getBalance('0x6c5aaaf1f7a5344a9f09d42e34d0a3560be51a06').toString()
 { [String: '0'] s: 1, e: 0, c: [ 0 ] }
 
 truffle(development)> web3.personal.unlockAccount('0x6c5aaaf1f7a5344a9f09d42e34d0a3560be51a06', '('###########')', 15000)
